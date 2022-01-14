@@ -44,6 +44,7 @@
 		67DACA252791581600814143 /* NFCMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DACA292791581600814143 /* NFCMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCMateUITests.swift; sourceTree = "<group>"; };
 		67DACA2B2791581600814143 /* NFCMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67DACA382791655600814143 /* NFCMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCMate.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		67DACA0D2791581400814143 /* NFCMate */ = {
 			isa = PBXGroup;
 			children = (
+				67DACA382791655600814143 /* NFCMate.entitlements */,
 				67DACA0E2791581400814143 /* NFCMateApp.swift */,
 				67DACA102791581400814143 /* ContentView.swift */,
 				67DACA122791581600814143 /* Assets.xcassets */,
@@ -416,12 +418,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NFCMate/NFCMate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NFCMate/Preview Content\"";
-				DEVELOPMENT_TEAM = F59A6ZU5Y6;
+				DEVELOPMENT_TEAM = RB6SW5787U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This allows the app to help you write data into your NFC tags.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twentyone24.NFCMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twentyone24.build.NFCMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,12 +449,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NFCMate/NFCMate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NFCMate/Preview Content\"";
-				DEVELOPMENT_TEAM = F59A6ZU5Y6;
+				DEVELOPMENT_TEAM = RB6SW5787U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This allows the app to help you write data into your NFC tags.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -461,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twentyone24.NFCMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twentyone24.build.NFCMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
