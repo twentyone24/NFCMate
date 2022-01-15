@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6783D9AC2791DF8B0071C17B /* NFCWriterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783D9AB2791DF8B0071C17B /* NFCWriterVM.swift */; };
+		67D02E3B27929A820086F23F /* AnimatedGradientBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D02E3A27929A820086F23F /* AnimatedGradientBGView.swift */; };
+		67D02E3D27929CF70086F23F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D02E3C27929CF70086F23F /* HomeView.swift */; };
+		67D02E3F27929D120086F23F /* WriteToNFCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D02E3E27929D120086F23F /* WriteToNFCView.swift */; };
+		67D02E422792AFC80086F23F /* ScanNFCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D02E412792AFC80086F23F /* ScanNFCView.swift */; };
+		67D02E452792B3300086F23F /* NFCUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D02E442792B3300086F23F /* NFCUtility.swift */; };
 		67DACA0F2791581400814143 /* NFCMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DACA0E2791581400814143 /* NFCMateApp.swift */; };
 		67DACA112791581400814143 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DACA102791581400814143 /* ContentView.swift */; };
 		67DACA132791581600814143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67DACA122791581600814143 /* Assets.xcassets */; };
@@ -34,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6783D9AB2791DF8B0071C17B /* NFCWriterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWriterVM.swift; sourceTree = "<group>"; };
+		67D02E3A27929A820086F23F /* AnimatedGradientBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientBGView.swift; sourceTree = "<group>"; };
+		67D02E3C27929CF70086F23F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		67D02E3E27929D120086F23F /* WriteToNFCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteToNFCView.swift; sourceTree = "<group>"; };
+		67D02E402792AA3A0086F23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		67D02E412792AFC80086F23F /* ScanNFCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanNFCView.swift; sourceTree = "<group>"; };
+		67D02E442792B3300086F23F /* NFCUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCUtility.swift; sourceTree = "<group>"; };
 		67DACA0B2791581400814143 /* NFCMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DACA0E2791581400814143 /* NFCMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCMateApp.swift; sourceTree = "<group>"; };
 		67DACA102791581400814143 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +85,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6799EEC4279296F700B3DC5C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6783D9AB2791DF8B0071C17B /* NFCWriterVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6799EEC52792970000B3DC5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67DACA102791581400814143 /* ContentView.swift */,
+				67D02E3C27929CF70086F23F /* HomeView.swift */,
+				67D02E3E27929D120086F23F /* WriteToNFCView.swift */,
+				67D02E412792AFC80086F23F /* ScanNFCView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6799EEC62792970800B3DC5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6799EEC72792971800B3DC5C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				67D02E3A27929A820086F23F /* AnimatedGradientBGView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		67D02E432792B31F0086F23F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				67D02E442792B3300086F23F /* NFCUtility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		67DACA022791581300814143 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +150,14 @@
 		67DACA0D2791581400814143 /* NFCMate */ = {
 			isa = PBXGroup;
 			children = (
+				67D02E402792AA3A0086F23F /* Info.plist */,
 				67DACA382791655600814143 /* NFCMate.entitlements */,
 				67DACA0E2791581400814143 /* NFCMateApp.swift */,
-				67DACA102791581400814143 /* ContentView.swift */,
+				6799EEC52792970000B3DC5C /* Views */,
+				6799EEC4279296F700B3DC5C /* ViewModels */,
+				6799EEC72792971800B3DC5C /* Components */,
+				67D02E432792B31F0086F23F /* Utilities */,
+				6799EEC62792970800B3DC5C /* Extensions */,
 				67DACA122791581600814143 /* Assets.xcassets */,
 				67DACA142791581600814143 /* Preview Content */,
 			);
@@ -259,8 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D02E3B27929A820086F23F /* AnimatedGradientBGView.swift in Sources */,
+				6783D9AC2791DF8B0071C17B /* NFCWriterVM.swift in Sources */,
 				67DACA112791581400814143 /* ContentView.swift in Sources */,
+				67D02E3D27929CF70086F23F /* HomeView.swift in Sources */,
 				67DACA0F2791581400814143 /* NFCMateApp.swift in Sources */,
+				67D02E422792AFC80086F23F /* ScanNFCView.swift in Sources */,
+				67D02E452792B3300086F23F /* NFCUtility.swift in Sources */,
+				67D02E3F27929D120086F23F /* WriteToNFCView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +491,7 @@
 				DEVELOPMENT_TEAM = RB6SW5787U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFCMate/Info.plist;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "This allows the app to help you write data into your NFC tags.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -456,6 +523,7 @@
 				DEVELOPMENT_TEAM = RB6SW5787U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFCMate/Info.plist;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "This allows the app to help you write data into your NFC tags.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
