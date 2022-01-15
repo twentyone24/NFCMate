@@ -4,8 +4,13 @@
 
 
 <p align="center">
-  <img src="art/flow.mov" height="600">
-  <img src="art/scr1.PNG" height="600">
+  <img src="art/scr1.png" height="600">
+  <img src="art/scr2.png" height="600">
+</p>
+
+<p align="center">
+  <img src="art/scr3.png" height="600">
+  <img src="art/scr4.png" height="600">
 </p>
 
 ### Requirements
