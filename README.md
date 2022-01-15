@@ -4,14 +4,8 @@
 
 
 <p align="center">
-  <img src="art/flow.gif" height="600">
-  <img src="art/scr1.gif" height="600">
-&nbsp; &nbsp; &nbsp; &nbsp;
-</p>
-
-<p align="center">
-  <img src="art/scr2.png" height="600"> 
-  <img src="art/scr3.png" height="600">  
+  <img src="art/flow.mov" height="600">
+  <img src="art/scr1.png" height="600">
 &nbsp; &nbsp; &nbsp; &nbsp;
 </p>
 
