@@ -20,3 +20,4 @@
 - iOS 14.0+
 - NFC Tags
 - Apple Developer Account
+https://medium.com/avantaventures/the-future-of-refrigerated-logistics-is-digital-e89e00cd6b9e
